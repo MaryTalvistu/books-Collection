@@ -7,11 +7,11 @@
   border-radius: 5px 5px 0 0;
   overflow: hidden;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
 .content-table thead tr {
-  background-color: #009879;
+  background-color: red;
   color: #fff;
   text-align: left;
   font-weight: bold;
@@ -59,8 +59,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .content-table tbody tr td:last-child #link {

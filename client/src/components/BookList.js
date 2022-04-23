@@ -16,7 +16,7 @@ const BookList = () => {
   };
 
   return (
-    <table className={styles["content-table"]}>
+    <table id="book_table" className={styles["content-table"]}>
       <thead>
         <tr>
           <th id="title" className={styles.title}>
