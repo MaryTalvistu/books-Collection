@@ -2,7 +2,7 @@ describe("Check initial state", () => {
   it("Goes to page, checks for list of books", () => {
     cy.visit("http://localhost:3000/").wait(1000);
 
-    //Table columns exist
+    //Table columns exist on home page
     cy.get("#title").should("be.visible");
     cy.get("#author").should("be.visible");
     cy.get("#category").should("be.visible");
