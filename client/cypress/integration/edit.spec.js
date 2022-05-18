@@ -9,7 +9,7 @@ describe("AEdit a book from the table", () => {
         cy.get("td").eq(4).get("a").click();
       });
 
-    // Get unedited name and change it
+    // Get unedited name and then change it
     cy.get("form")
       .contains("label", "Book Title")
       .parent()
