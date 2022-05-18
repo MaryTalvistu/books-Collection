@@ -1,5 +1,5 @@
 // describe("Delete a book from the table", () => {
-//   it("Goes to page, deletes a book", () => {
+//   it("Goes to page and deletes a book", () => {
 //     cy.visit("http://localhost:3000/").wait(1000);
 
 //     // Get original table length
