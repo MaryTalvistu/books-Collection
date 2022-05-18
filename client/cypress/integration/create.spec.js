@@ -2,7 +2,7 @@ describe("Add a new book to the table", () => {
   it("Goes to page, adds a new book", () => {
     cy.visit("http://localhost:3000/").wait(1000);
 
-    //Click "+Add Book"
+    //Click "Add Book"
     cy.get("#add_book").click();
     cy.url().should("contains", "http://localhost:3000/add");
 
